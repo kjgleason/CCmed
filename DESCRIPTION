@@ -1,0 +1,19 @@
+Package: CCmed
+Type: Package
+Title: Cross-condition mediation analysis
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Kevin J.", "Gleason", email = "kevin.j.gleason@gmail.com", role=c("aut","cre")),
+    person("Fan", "Yang", email = "FAN.3.YANG@ucdenver.edu", role="aut"),
+    person("Lin S.", "Chen", email = "lchen@health.bsd.uchicago.edu", role="aut"))
+Maintainer: Kevin J. Gleason <kevin.j.gleason@gmail.com>
+Description: Implements methods to run
+  cross-conditional mediation analysis to identify
+  trans-associations mediated by cis-associations.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  Primo (>= 0.0.1),
+  matrixStats (>= 0.53.1)
+RoxygenNote: 6.1.1
