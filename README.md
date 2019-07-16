@@ -1,17 +1,16 @@
 # CCmed: cross-condition mediation analysis
 
 The goal of `CCmed` is to provide computationally efficient tools to conduct cross-condition
-mediation analysis to identify trans-associations mediated by cis-associations (e.g. cross-tissue
-trans-gene associations mediated by cis-gene expression levels). 
+mediation analysis. `CCmed` identifies trans-associations mediated by cis-associations (e.g. trans-associations of eQTLs mediated by effects on cis-gene expression levels). 
 `CCmed` can be used to conduct cross-condition mediation analyses at the gene-level or
 to identify trans-associations of complex trait GWAS variants/SNPs.
 
-## Setup: dependencies
+## Setup: dependencies not on CRAN
 
 Note that in order to use `CCmed`, the `Primo` package must also be installed. Please follow the following steps
-to install `Primo`:
+to install `Primo`, if not already installed:
 
-Please note that the `Primo` package uses functions from the `limma` package, which is downloadable from [Bioconductor](https://www.bioconductor.org), and the `lcmix` package, which is downloadable from [R-Forge](https://r-forge.r-project.org). If you have not yet installed the `limma` or `lcmix` packages, please run the following commands prior to installing `Primo`:
+`Primo` package uses functions from the `limma` package, which is downloadable from [Bioconductor](https://www.bioconductor.org), and the `lcmix` package, which is downloadable from [R-Forge](https://r-forge.r-project.org). If you have not yet installed the `limma` or `lcmix` packages, please run the following commands prior to installing `Primo`:
 
   ```R
   source("https://bioconductor.org/biocLite.R")
