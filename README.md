@@ -3,7 +3,7 @@
 The goal of `CCmed` is to provide computationally efficient tools to conduct cross-condition
 mediation analysis. `CCmed` identifies trans-associations mediated by cis-effects (e.g. trans-associations of eQTLs mediated by effects on cis-gene expression levels). 
 Mediation analyses can be performed at the gene-level or
-used to identify trans-associations of complex trait GWAS variants/SNPs.
+used to identify trans-associations of complex trait GWAS SNPs/variants.
 
 ## Setup: dependencies not on CRAN
 
